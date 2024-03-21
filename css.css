@@ -1,0 +1,149 @@
+body {
+  background-color: #FECA19;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #FECA19;
+  text-align: center;
+  padding: 20px 0;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.biografia {
+  padding: 20px;
+  border: 1px solid #FECA19;
+  border-radius: 10px;
+  text-align: justify;
+}
+
+.foto-perfil {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+  display: block;
+
+  /* Media queries para diferentes dispositivos */
+  @media (max-width: 768px) {
+    width: 128px;
+    height: 128px;
+  }
+
+  @media (max-width: 480px) {
+    width: 36px;
+    height: 36px;
+  }
+}
+
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.formulario {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  height: 200px;
+}
+
+button {
+  background-color: #333;
+  color: #040101;
+  padding: 10px 20px;
+  border: 1px solid #050505;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Se agregaron estilos para el formulario */
+.formulario {
+  background-color: #FECA19;
+}
+
+label {
+  font-weight: bold;
+}
+
+textarea {
+  border-color: #ddd;
+}
+
+button {
+  background-color: #f0f2f4;
+}
+
+/* Se agregaron estilos para el mensaje de caracteres */
+.mensaje-caracteres {
+  color: #f00;
+  font-weight: bold;
+  margin-top: 10px;
+  display: none;
+}
+
+.mensaje-caracteres.visible {
+  display: block;
+}
+
+.contacto {
+  background-color: #FECA19;
+  padding: 20px;
+  text-align: center;
+}
+
+.contacto h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.contacto ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contacto li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.contacto li a {
+  text-decoration: none;
+}
+
+.contacto li img {
+  width: 32px;
+  height: 32px;
+}
+
